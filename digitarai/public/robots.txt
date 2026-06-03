@@ -1,0 +1,6 @@
+# robots.txt for DigitarAI - Advanced AI Marketing Solutions
+User-agent: *
+Allow: /
+
+# Sitemap coordinates
+Sitemap: https://digitarai.ai/sitemap.xml
