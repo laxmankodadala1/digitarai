@@ -102,7 +102,7 @@ export default function HowWeHelp() {
             Our Transparent <span className="gradient-text">Growth Blueprint</span>
           </h1>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            See exactly how we audit your active domain index, construct proprietary semantic models, and translate technical optimizations into measurable client acquisition funnels.
+            We are a group of developers, system crawled engineers, and creative content experts who think provable math should be used instead of lofty claims in digital marketing.
           </p>
         </div>
 
