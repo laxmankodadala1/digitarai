@@ -136,7 +136,7 @@ export default function About() {
               A Growth Team Obsessed with <span className="gradient-text">Genuine Performance</span>
             </h1>
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-              We are a collective of developers, system crawled engineers, and creative copy specialists who believe digital marketing should rely on verifiable mathematics rather than high-sounding promises.
+              We are a group of developers, system crawled engineers, and creative copy experts who think provable math should be the foundation of digital marketing instead of lofty claims.
             </p>
           </div>
         )}
