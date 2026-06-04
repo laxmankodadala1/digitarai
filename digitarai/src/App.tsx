@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -23,7 +23,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-white">
         {/* Sticky navbar */}
@@ -55,6 +55,6 @@ export default function App() {
         {/* Enterprise global footer */}
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
