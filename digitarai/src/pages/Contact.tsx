@@ -9,7 +9,7 @@ export default function Contact() {
     email: "",
     phone: "",
     company: "",
-    serviceNeeded: "Advanced AI SEO",
+    serviceNeeded: "Advanced SEO / AI SEO",
     message: "",
   });
 
@@ -28,7 +28,7 @@ export default function Contact() {
         email: "",
         phone: "",
         company: "",
-        serviceNeeded: "Advanced AI SEO",
+        serviceNeeded: "Advanced SEO / AI SEO",
         message: "",
       });
       // hide success message after some time
@@ -156,7 +156,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     className="w-full bg-slate-50 border border-slate-200 text-xs rounded-xl px-4 py-2.5 outline-none focus:bg-white focus:border-blue-500 transition text-slate-800 font-medium"
                   >
-                    <option value="Advanced AI SEO">Advanced AI SEO</option>
+                    <option value="Advanced SEO / AI SEO">Advanced SEO / AI SEO</option>
                     <option value="SMM Intelligence">SMM Intelligence</option>
                     <option value="Precision PPC">Precision PPC</option>
                     <option value="ORM & Reputation">ORM & Reputation Protection</option>
