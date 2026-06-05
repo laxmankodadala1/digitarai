@@ -99,7 +99,7 @@ export default function Contact() {
             Secure Your <span className="gradient-text">Growth Audit Session</span>
           </h1>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Fill the security-cleared validation questionnaire below. Our search intelligence engineers compile your competitors keyword gaps within 12 hours.
+            Fill the security-cleared validation questionnaire below. Our search intelligence engineers compile your competitors keyword gaps.
           </p>
         </div>
 
