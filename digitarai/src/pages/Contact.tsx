@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Clock, Send, CheckCircle2, AlertCircle, Sparkles, Network } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, CheckCircle2, AlertCircle, Network } from "lucide-react";
 import SeoHead from "../components/SeoHead";
 
 export default function Contact() {
@@ -147,7 +147,7 @@ export default function Contact() {
                 <div className="space-y-1.5">
                   <label className="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Corporate Email</label>
                   <input
-                    type="type"
+                    type="email"
                     name="email"
                     required
                     value={formData.email}
@@ -319,7 +319,6 @@ export default function Contact() {
             <h3 className="text-lg font-bold font-display text-slate-950">Hyderabad Corporate Headquarters & Server Gateways</h3>
           </div>
           <div className="bg-[#0B132B] border border-slate-800 rounded-3xl p-6 min-h-[300px] text-white relative flex flex-col justify-between overflow-hidden shadow-2xl">
-            {/* Visual SVG Map represents clean, highly high-tech dark vector layout */}
             <div className="absolute inset-0 pointer-events-none opacity-20">
               <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <circle cx="20" cy="40" r="1" fill="#FFFFFF" />
