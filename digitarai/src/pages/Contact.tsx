@@ -23,7 +23,7 @@ export default function Contact() {
     setErrorMsg("");
 
     const payload = {
-      access_key: "b26ae036-84df-4886-b2ba-721e3c51a553",
+      access_key: "13af0e81-5f90-4e63-b3cc-c2f1ab553821",
       subject: `New DigitaRai Lead: ${formData.company}`,
       from_name: "DigitaRai Strategic Form",
       name: formData.name,
