@@ -16,21 +16,57 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setErrorMsg("");
 
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        company: "",
-        serviceNeeded: "Advanced SEO / AI SEO",
-        message: "",
+    const payload = {
+      access_key: "b26ae036-84df-4886-b2ba-721e3c51a553",
+      subject: `New DigitaRai Lead: ${formData.company}`,
+      from_name: "DigitaRai Strategic Form",
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      company: formData.company,
+      serviceNeeded: formData.serviceNeeded,
+      message: formData.message,
+    };
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
       });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitted(true);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          company: "",
+          serviceNeeded: "Advanced SEO / AI SEO",
+          message: "",
+        });
+        setTimeout(() => setSubmitted(false), 9000);
+      } else {
+        setErrorMsg("Transmission failed. Please check your network context or email us directly.");
+      }
+    } catch (error) {
+      setErrorMsg("An edge network anomaly occurred. Please try submitting again.");
+    } finally {
+      setLoading(false);
+    }
+  };
       // hide success message after some time
       setTimeout(() => setSubmitted(false), 9000);
     }, 1200);
