@@ -261,7 +261,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] text-slate-500 font-mono">ENCRYPTED EMAIL</p>
-                    <p className="text-white">contact@digitarai.com</p>
+                    <p className="text-white">digitaraisolutions@gmail.com</p>
                   </div>
                 </div>
 
@@ -333,7 +333,7 @@ export default function Contact() {
               <div>
                 <span className="text-[10px] font-mono select-none text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 w-fit block mb-2">● LIVE GPS MAP CONNECTED</span>
                 <p className="text-xs text-slate-300 max-w-sm">
-                  Our operational core sits securely inside the prominent tech corridor in Hyderabad, Telangana, India, linking database mirrors straight to fiber pipelines.
+                  Hyderabad, Telangana, India.
                 </p>
               </div>
 
