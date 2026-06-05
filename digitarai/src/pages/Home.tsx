@@ -295,7 +295,7 @@ export default function Home() {
               <div className="border border-slate-200/50 bg-white rounded-3xl p-6 hover:border-slate-350 transition-all flex flex-col justify-between group">
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-blue-600 font-mono font-bold block mb-3">Audience Acquisition</span>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">SMM Intelligence</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">SMM (Social Media Marketing) Intelligence</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-6">
                     Build massive authority on channels like LinkedIn, YouTube, and Instagram via data-driven creative scheduling and community building.
                   </p>
@@ -309,7 +309,7 @@ export default function Home() {
               <div className="border border-slate-200/50 bg-white rounded-3xl p-6 hover:border-slate-350 transition-all flex flex-col justify-between group">
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-blue-600 font-mono font-bold block mb-3">Maximizing ROAS</span>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">Precision PPC</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">Precision PPC (Pay Per Click)</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-6">
                     Optimize advertising campaigns through negative term pruning budgets and micro-bidding schedules, protecting campaign return ratios.
                   </p>
