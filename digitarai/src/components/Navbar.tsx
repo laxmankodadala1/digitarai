@@ -85,7 +85,7 @@ export default function Navbar() {
               <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 w-72 pointer-events-none opacity-0 group-hover/nav:pointer-events-auto group-hover/nav:opacity-100 transition-all duration-200">
                 <div className="bg-white border border-slate-100 rounded-2xl shadow-xl p-4 grid gap-1">
                   <Link to="/services/seo" className="p-2 hover:bg-slate-50 rounded-xl flex flex-col transition">
-                    <span className="font-semibold text-xs text-slate-800">Advanced AI SEO</span>
+                    <span className="font-semibold text-xs text-slate-800">Advanced SEO / AI SEO</span>
                     <span className="text-[10px] text-slate-500">Autonomous search performance indexing</span>
                   </Link>
                   <Link to="/services/smm" className="p-2 hover:bg-slate-50 rounded-xl flex flex-col transition">
