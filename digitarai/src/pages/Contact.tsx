@@ -15,8 +15,7 @@ export default function Contact() {
 
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
-
-const [errorMsg, setErrorMsg] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -67,10 +66,6 @@ const [errorMsg, setErrorMsg] = useState("");
       setLoading(false);
     }
   };
-      // hide success message after some time
-      setTimeout(() => setSubmitted(false), 9000);
-    }, 1200);
-  };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -114,6 +109,13 @@ const [errorMsg, setErrorMsg] = useState("");
           <div className="lg:col-span-7 bg-white border border-slate-200/60 rounded-3xl p-6 lg:p-10 shadow-sm">
             <h3 className="text-lg font-bold text-slate-900 font-display mb-6">Strategic Application Form</h3>
 
+            {errorMsg && (
+              <div className="bg-rose-50 border border-rose-200 text-rose-800 rounded-xl p-4 text-xs font-medium mb-4 flex items-center gap-2">
+                <AlertCircle className="w-4 h-4 shrink-0" />
+                <span>{errorMsg}</span>
+              </div>
+            )}
+
             {submitted ? (
               <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-6 space-y-3 text-emerald-800">
                 <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">
@@ -145,7 +147,7 @@ const [errorMsg, setErrorMsg] = useState("");
                 <div className="space-y-1.5">
                   <label className="text-[10px] font-bold text-slate-600 uppercase tracking-wider block">Corporate Email</label>
                   <input
-                    type="email"
+                    type="type"
                     name="email"
                     required
                     value={formData.email}
@@ -322,7 +324,7 @@ const [errorMsg, setErrorMsg] = useState("");
               <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <circle cx="20" cy="40" r="1" fill="#FFFFFF" />
                 <circle cx="45" cy="50" r="1.5" fill="#3B82F6" />
-                <circle cx="50" cy="55" r="2.5" fill="#10B981" /> {/* HQ Hyderabad */}
+                <circle cx="50" cy="55" r="2.5" fill="#10B981" />
                 <circle cx="75" cy="30" r="1" fill="#FFFFFF" />
                 <path d="M45,50 L50,55 M50,55 L75,30" stroke="#1E3A8A" strokeWidth="0.25" strokeDasharray="1 1" />
               </svg>
