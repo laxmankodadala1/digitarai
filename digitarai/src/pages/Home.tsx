@@ -281,7 +281,7 @@ export default function Home() {
               <div className="border border-slate-200/50 bg-white rounded-3xl p-6 hover:border-slate-350 transition-all flex flex-col justify-between group">
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-blue-600 font-mono font-bold block mb-3">Continuous Audits</span>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">Advanced AI SEO</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">SEO / Advanced AI SEO</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-6">
                     Maintain peak ranks and sitemap indexability. Includes technical core performance metrics checks, schema markups, and competitor gap displacement.
                   </p>
