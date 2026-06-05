@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Clock, Send, CheckCircle2, AlertCircle, Sparkles, Network } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, CheckCircle2, AlertCircle, Network } from "lucide-react";
 import SeoHead from "../components/SeoHead";
 
 export default function Contact() {
@@ -9,31 +9,62 @@ export default function Contact() {
     email: "",
     phone: "",
     company: "",
-    serviceNeeded: "Advanced AI SEO",
+    serviceNeeded: "Advanced SEO / AI SEO",
     message: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setErrorMsg("");
 
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        company: "",
-        serviceNeeded: "Advanced AI SEO",
-        message: "",
+    const payload = {
+      access_key: "13af0e81-5f90-4e63-b3cc-c2f1ab553821",
+      subject: `New DigitaRai Lead: ${formData.company}`,
+      from_name: "DigitaRai Strategic Form",
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      company: formData.company,
+      serviceNeeded: formData.serviceNeeded,
+      message: formData.message,
+    };
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
       });
-      // hide success message after some time
-      setTimeout(() => setSubmitted(false), 9000);
-    }, 1200);
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitted(true);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          company: "",
+          serviceNeeded: "Advanced SEO / AI SEO",
+          message: "",
+        });
+        setTimeout(() => setSubmitted(false), 9000);
+      } else {
+        setErrorMsg("Transmission failed. Please check your network context or email us directly.");
+      }
+    } catch (error) {
+      setErrorMsg("An edge network anomaly occurred. Please try submitting again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -68,7 +99,7 @@ export default function Contact() {
             Secure Your <span className="gradient-text">Growth Audit Session</span>
           </h1>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Fill the security-cleared validation questionnaire below. Our search intelligence engineers compile your competitors keyword gaps within 12 hours.
+            Fill the security-cleared validation questionnaire below. Our search intelligence engineers compile your competitors keyword gaps.
           </p>
         </div>
 
@@ -77,6 +108,13 @@ export default function Contact() {
           {/* Left Column: Form Info */}
           <div className="lg:col-span-7 bg-white border border-slate-200/60 rounded-3xl p-6 lg:p-10 shadow-sm">
             <h3 className="text-lg font-bold text-slate-900 font-display mb-6">Strategic Application Form</h3>
+
+            {errorMsg && (
+              <div className="bg-rose-50 border border-rose-200 text-rose-800 rounded-xl p-4 text-xs font-medium mb-4 flex items-center gap-2">
+                <AlertCircle className="w-4 h-4 shrink-0" />
+                <span>{errorMsg}</span>
+              </div>
+            )}
 
             {submitted ? (
               <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-6 space-y-3 text-emerald-800">
@@ -156,7 +194,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     className="w-full bg-slate-50 border border-slate-200 text-xs rounded-xl px-4 py-2.5 outline-none focus:bg-white focus:border-blue-500 transition text-slate-800 font-medium"
                   >
-                    <option value="Advanced AI SEO">Advanced AI SEO</option>
+                    <option value="Advanced SEO / AI SEO">Advanced SEO / AI SEO</option>
                     <option value="SMM Intelligence">SMM Intelligence</option>
                     <option value="Precision PPC">Precision PPC</option>
                     <option value="ORM & Reputation">ORM & Reputation Protection</option>
@@ -223,7 +261,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] text-slate-500 font-mono">ENCRYPTED EMAIL</p>
-                    <p className="text-white">contact@digitarai.com</p>
+                    <p className="text-white">digitaraisolutions@gmail.com</p>
                   </div>
                 </div>
 
@@ -281,12 +319,11 @@ export default function Contact() {
             <h3 className="text-lg font-bold font-display text-slate-950">Hyderabad Corporate Headquarters & Server Gateways</h3>
           </div>
           <div className="bg-[#0B132B] border border-slate-800 rounded-3xl p-6 min-h-[300px] text-white relative flex flex-col justify-between overflow-hidden shadow-2xl">
-            {/* Visual SVG Map represents clean, highly high-tech dark vector layout */}
             <div className="absolute inset-0 pointer-events-none opacity-20">
               <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <circle cx="20" cy="40" r="1" fill="#FFFFFF" />
                 <circle cx="45" cy="50" r="1.5" fill="#3B82F6" />
-                <circle cx="50" cy="55" r="2.5" fill="#10B981" /> {/* HQ Hyderabad */}
+                <circle cx="50" cy="55" r="2.5" fill="#10B981" />
                 <circle cx="75" cy="30" r="1" fill="#FFFFFF" />
                 <path d="M45,50 L50,55 M50,55 L75,30" stroke="#1E3A8A" strokeWidth="0.25" strokeDasharray="1 1" />
               </svg>
@@ -296,7 +333,7 @@ export default function Contact() {
               <div>
                 <span className="text-[10px] font-mono select-none text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 w-fit block mb-2">● LIVE GPS MAP CONNECTED</span>
                 <p className="text-xs text-slate-300 max-w-sm">
-                  Our operational core sits securely inside the prominent tech corridor in Hyderabad, Telangana, India, linking database mirrors straight to fiber pipelines.
+                  Hyderabad, Telangana, India.
                 </p>
               </div>
 

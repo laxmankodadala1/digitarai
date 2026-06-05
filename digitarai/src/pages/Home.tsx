@@ -19,20 +19,20 @@ const SECTION_TOGGLES = {
 export default function Home() {
   const testimonials = [
     {
-      name: "Marcus Aurelius V",
-      role: "VP of Growth, CloudScale Inc.",
+      name: "Anonymous",
+      role: "VP of Growth",
       quote: "DigitarAI totally transformed our lead flow. Within 3 months, our organic traffic increased by over 200%, dropping our customer acquisition cost significantly. The AI SEO pipeline is standard-setting.",
       rating: 5,
     },
     {
-      name: "Jeanette Winters",
-      role: "CMO, Horizon E-Com",
+      name: "Anonymous",
+      role: "CMO",
       quote: "Using their PPC Precision campaigns, we achieved an immediate 4.5x consistent ROAS. Their dynamic inventory feed optimizer eliminated thousands of dollars of ad waste during our peak product seasons.",
       rating: 5,
     },
     {
-      name: "David Vance",
-      role: "CEO, TechSphere Labs",
+      name: "Anonymous",
+      role: "CEO",
       quote: "Before DigitarAI, our brand was vulnerable to competitor search displacement. They set up unified defenses, protected our rankings, and secured #1 spots for high-commercial software search phrases.",
       rating: 5,
     },
@@ -281,7 +281,7 @@ export default function Home() {
               <div className="border border-slate-200/50 bg-white rounded-3xl p-6 hover:border-slate-350 transition-all flex flex-col justify-between group">
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-blue-600 font-mono font-bold block mb-3">Continuous Audits</span>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">Advanced AI SEO</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">SEO / Advanced AI SEO</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-6">
                     Maintain peak ranks and sitemap indexability. Includes technical core performance metrics checks, schema markups, and competitor gap displacement.
                   </p>
@@ -295,7 +295,7 @@ export default function Home() {
               <div className="border border-slate-200/50 bg-white rounded-3xl p-6 hover:border-slate-350 transition-all flex flex-col justify-between group">
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-blue-600 font-mono font-bold block mb-3">Audience Acquisition</span>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">SMM Intelligence</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">SMM (Social Media Marketing) Intelligence</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-6">
                     Build massive authority on channels like LinkedIn, YouTube, and Instagram via data-driven creative scheduling and community building.
                   </p>
@@ -309,7 +309,7 @@ export default function Home() {
               <div className="border border-slate-200/50 bg-white rounded-3xl p-6 hover:border-slate-350 transition-all flex flex-col justify-between group">
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-blue-600 font-mono font-bold block mb-3">Maximizing ROAS</span>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">Precision PPC</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">Precision PPC (Pay Per Click)</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-6">
                     Optimize advertising campaigns through negative term pruning budgets and micro-bidding schedules, protecting campaign return ratios.
                   </p>
