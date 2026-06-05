@@ -19,20 +19,20 @@ const SECTION_TOGGLES = {
 export default function Home() {
   const testimonials = [
     {
-      name: "Marcus Aurelius V",
-      role: "VP of Growth, CloudScale Inc.",
+      name: "Anonymous",
+      role: "VP of Growth",
       quote: "DigitarAI totally transformed our lead flow. Within 3 months, our organic traffic increased by over 200%, dropping our customer acquisition cost significantly. The AI SEO pipeline is standard-setting.",
       rating: 5,
     },
     {
-      name: "Jeanette Winters",
-      role: "CMO, Horizon E-Com",
+      name: "Anonymous",
+      role: "CMO",
       quote: "Using their PPC Precision campaigns, we achieved an immediate 4.5x consistent ROAS. Their dynamic inventory feed optimizer eliminated thousands of dollars of ad waste during our peak product seasons.",
       rating: 5,
     },
     {
-      name: "David Vance",
-      role: "CEO, TechSphere Labs",
+      name: "Anonymous",
+      role: "CEO",
       quote: "Before DigitarAI, our brand was vulnerable to competitor search displacement. They set up unified defenses, protected our rankings, and secured #1 spots for high-commercial software search phrases.",
       rating: 5,
     },
