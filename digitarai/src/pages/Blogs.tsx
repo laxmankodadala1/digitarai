@@ -46,6 +46,7 @@ export default function Blogs() {
         <SeoHead
           title={post.title}
           description={post.excerpt}
+          keywords={post.metaKeywords}
           ogType="article"
           breadcrumbs={[
             { name: "Home", url: "/" },
