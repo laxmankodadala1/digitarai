@@ -425,7 +425,7 @@ export const blogPostsData: BlogPost[] = [
     author: "DigitarAI",
     readTime: "7 min read",
     isFeatured: true,
-    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/public/The%20Future%20of%20AI%20SEO%20in%202026%20Cracking%20the%20Answer%20Engine%20Algorithm.png",
+    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/public/The%20Future%20of%20AI%20SEO%20in%202026%20Cracking%20the%20Answer%20Engine%20Algorithm%20(1).png",
     
     metaTitle: "The Future of AI SEO in 2026: How to Rank in Answer Engines and AI Search",
     metaDescription: "Discover how AI SEO is transforming search in 2026. Learn how answer engines work, what businesses must do to stay visible, and the strategies needed to rank in AI-powered search results.",
