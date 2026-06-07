@@ -1,80 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://digitarai.ai/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/services</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/services</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/services/seo</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/services/seo</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/services/smm</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/services/smm</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/services/ppc</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/services/ppc</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/services/orm</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/services/orm</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/services/content-marketing</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/services/content-marketing</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/services/lead-generation</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/services/lead-generation</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/solutions</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/solutions</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/how-we-help</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/how-we-help</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/features</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://digitarai.ai/#/blogs</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://digitarai.com/about-us</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://digitarai.ai/#/contact</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://digitarai.com/blogs</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://digitarai.com/blogs/future-of-ai-seo-2026</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://digitarai.com/blogs/ai-powered-seo-complete-guide</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://digitarai.com/blogs/saas-growth-advanced-ai-seo-digital-marketing</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://digitarai.com/contact</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>
   </url>
