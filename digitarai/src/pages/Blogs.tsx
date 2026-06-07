@@ -46,6 +46,7 @@ export default function Blogs() {
         <SeoHead
           title={post.title}
           description={post.excerpt}
+          keywords={post.metaKeywords}
           ogType="article"
           breadcrumbs={[
             { name: "Home", url: "/" },
@@ -98,9 +99,9 @@ export default function Blogs() {
           </div>
 
           {/* Core Content Body (Formatted Markdown/HTML representation) */}
-          <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-600 space-y-6 leading-relaxed">
-            <div dangerouslySetInnerHTML={{ __html: post.content }} />
-          </div>
+          <div className="prose prose-slate max-w-none text-base sm:text-lg text-slate-700 space-y-6 leading-relaxed">
+  <div dangerouslySetInnerHTML={{ __html: post.content }} />
+</div>
 
           {/* Dynamic Footer Audit Call-out */}
           <div className="mt-16 bg-slate-950 text-white rounded-3xl p-6 lg:p-10 border border-slate-900 shadow-xl text-center space-y-4">
