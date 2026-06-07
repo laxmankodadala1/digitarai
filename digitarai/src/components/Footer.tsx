@@ -54,7 +54,7 @@ export default function Footer() {
             {/* Socials */}
             <div className="flex items-center gap-3">
               <a
-                href="https://linkedin.com"
+                href="https://dev.digitarai.pages.dev/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-600 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"
@@ -63,7 +63,7 @@ export default function Footer() {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://dev.digitarai.pages.dev/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-500 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"
@@ -72,7 +72,7 @@ export default function Footer() {
                 <Twitter className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://dev.digitarai.pages.dev/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-pink-600 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"
