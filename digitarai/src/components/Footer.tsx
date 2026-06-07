@@ -108,60 +108,24 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Newsletter */}
-          <div>
-            <h4 className="text-xs font-bold text-slate-100 uppercase tracking-widest mb-4">Newsletter Audit</h4>
-            <p className="text-xs text-slate-400 mb-3 leading-relaxed">
-              Get bi-weekly AI SEO tips and digital marketing reports directly to your inbox.
-            </p>
-            {subscribed ? (
-              <div className="bg-emerald-950/40 border border-emerald-900 rounded-xl p-3 flex items-start gap-2 text-emerald-400 text-xs">
-                <CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>Success! Subscribed and dispatched the SEO Starter Kit.</span>
-              </div>
-            ) : (
-              <form onSubmit={handleSubscribe} className="space-y-2">
-                <div className="relative">
-                  <input
-                    type="email"
-                    required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter business email"
-                    className="w-full bg-slate-900 border border-slate-800 text-xs rounded-xl px-4 py-2.5 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-white placeholder-slate-500"
-                  />
-                  <button
-                    type="submit"
-                    className="absolute right-1 top-1 bottom-1 bg-blue-600 hover:bg-blue-700 text-white px-2.5 rounded-lg transition"
-                    aria-label="Subscribe"
-                  >
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-              </form>
-            )}
-          </div>
-        </div>
 
-        {/* Bottom Corporate Details */}
-        <div className="pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-xs text-slate-400 pb-12 border-b border-slate-900">
-          <div className="flex items-center gap-2">
-            <Mail className="w-4 h-4 text-blue-500" />
-            <span>digitaraisolutions@gmail.com</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <Phone className="w-4 h-4 text-blue-500" />
-            <span>update soon</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <MapPin className="w-4 h-4 text-blue-500" />
-            <span>Hyderabad, Telangana, India.</span>
-          </div>
-          <div>
-            <span className="font-semibold text-slate-300">Hours: </span>
-            <span>24/7</span>
-          </div>
+      {/* Column 4: Contact Us */}
+        <div>
+          <h4 className="text-xs font-bold text-slate-100 uppercase tracking-widest mb-4">
+            Contact Us
+          </h4>
+          <p className="text-xs text-slate-400 mb-4 leading-relaxed">
+            Have questions about scaling your traffic? Get in touch with our digital marketing experts today.
+          </p>
+          <a
+            href="https://dev.digitarai.pages.dev/contact"
+            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2.5 rounded-xl transition shadow-lg shadow-blue-600/10"
+          >
+            <span>Get in Touch</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </a>
         </div>
+      </div>
 
         {/* Copyright & Bottom policies list */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
