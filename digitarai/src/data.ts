@@ -541,7 +541,7 @@ export const blogPostsData: BlogPost[] = [
     author: "DigitarAI",
     readTime: "9 min read",
     isFeatured: false,
-    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/public/The%20Future%20of%20AI%20SEO%20in%202026%20Cracking%20the%20Answer%20Engine%20Algorithm%20(1).png",
+    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/SEO%20img.png",
     
     metaTitle: "AI-Powered SEO: The Complete Guide to Ranking Higher on Google in 2026",
     metaDescription: "Learn how AI-powered SEO is transforming search rankings. Discover AI keyword research, content optimization, technical SEO automation, search intent analysis, and the best AI SEO tools to improve your Google rankings.",
@@ -710,7 +710,7 @@ export const blogPostsData: BlogPost[] = [
     author: "DigitarAI",
     readTime: "10 min read",
     isFeatured: true,
-    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/public/SaaS%20Growth%20Advanced%20AI%20SEO.png", // Update file target link as needed
+    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/SEO.png", // Update file target link as needed
     
     metaTitle: "How SaaS Companies Can Grow Faster with AI SEO and Advanced Digital Marketing",
     metaDescription: "Discover how SaaS companies can increase website traffic, improve Domain Authority, generate qualified leads, and accelerate growth using AI SEO, content marketing, technical SEO, and advanced digital marketing strategies.",
