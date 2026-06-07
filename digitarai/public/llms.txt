@@ -1,0 +1,28 @@
+# DigitarAI
+
+> DigitarAI is a next-generation B2B digital marketing and advanced AI-driven SEO agency specializing in search engine optimization, content strategy, social media management, and performance marketing to accelerate enterprise and SaaS growth.
+
+## Core Capabilities & Services
+
+* [SEO Services](https://digitarai.com/services/seo) - Advanced technical SEO, schema implementation, search visibility optimization, and AI crawler accessibility.
+* [Social Media Marketing (SMM)](https://digitarai.com/services/smm) - Strategic B2B social media management, brand presence engineering, and targeted content creation.
+* [Pay-Per-Click (PPC)](https://digitarai.com/services/ppc) - High-converting paid search, display, and social ad campaigns optimized for return on ad spend (ROAS).
+* [Online Reputation Management (ORM)](https://digitarai.com/services/orm) - Comprehensive brand perception management, reviews monitoring, and authority building.
+* [Content Marketing](https://digitarai.com/services/content-marketing) - High-quality content production, inbound marketing strategy, and authoritative copywriting.
+* [Lead Generation](https://digitarai.com/services/lead-generation) - Multi-channel B2B lead generation funnels engineered for scalable pipeline growth.
+
+## Core Site Sections
+
+* [Home](https://digitarai.com/) - Main hub for DigitarAI's digital engineering and data-driven marketing solutions.
+* [Services Overview](https://digitarai.com/services) - Comprehensive view of our full digital marketing service suite.
+* [Solutions](https://digitarai.com/solutions) - Tailored marketing frameworks designed for specific industry use cases and operational goals.
+* [How We Help](https://digitarai.com/how-we-help) - Insights into our client engagement model, methodology, and execution framework.
+* [About Us](https://digitarai.com/about-us) - Company background, values, and digital marketing philosophy.
+* [Contact Us](https://digitarai.com/contact) - Inquiry form, support, and business consultation booking.
+
+## Insights & Articles
+
+* [Blogs Hub](https://digitarai.com/blogs) - Directory of latest insights, updates, and strategic guides.
+* [The Future of AI SEO in 2026](https://digitarai.com/blogs/future-of-ai-seo-2026) - Strategic breakdown of how artificial intelligence is reshaping user discovery and technical SEO frameworks.
+* [AI-Powered SEO: The Complete Guide](https://digitarai.com/blogs/ai-powered-seo-complete-guide) - A comprehensive resource manual detailing modern AI optimization, LLM indexing tactics, and semantic search.
+* [SaaS Growth with Advanced AI SEO & Digital Marketing](https://digitarai.com/blogs/saas-growth-advanced-ai-seo-digital-marketing) - Playbook outlining hyper-targeted digital marketing frameworks to scale software-as-a-service platforms.
