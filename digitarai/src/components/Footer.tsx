@@ -54,7 +54,7 @@ export default function Footer() {
             {/* Socials */}
             <div className="flex items-center gap-3">
               <a
-                href="https://dev.digitarai.pages.dev/"
+                href="https://digitarai.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-600 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"
@@ -63,7 +63,7 @@ export default function Footer() {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="https://dev.digitarai.pages.dev/"
+                href="https://digitarai.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-500 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"
@@ -72,7 +72,7 @@ export default function Footer() {
                 <Twitter className="w-4 h-4" />
               </a>
               <a
-                href="https://dev.digitarai.pages.dev/"
+                href="https://digitarai.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-pink-600 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"
@@ -118,7 +118,7 @@ export default function Footer() {
             Have questions about scaling your traffic? Get in touch with our digital marketing experts today.
           </p>
           <a
-            href="https://dev.digitarai.pages.dev/contact"
+            href="https://digitarai.com/contact"
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2.5 rounded-xl transition shadow-lg shadow-blue-600/10"
           >
             <span>Get in Touch</span>
