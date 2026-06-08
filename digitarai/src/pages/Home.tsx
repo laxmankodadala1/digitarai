@@ -54,8 +54,8 @@ export default function Home() {
     <div className="font-sans relative">
       <SeoHead
         title="Advanced AI-Powered Digital Marketing Solutions"
-        description="Transform your enterprise traffic, qualified B2B leads, and digital marketing return-on-investment using DigitarAI modern search algorithms & automated campaign structures."
-        keywords="DigitarAI, AI marketing, digitar marketing services, SEO, SMM, PPC, search engine optimization"
+        metadescription="Transform your enterprise traffic, qualified B2B leads, and digital marketing return-on-investment using DigitarAI modern search algorithms & automated campaign structures."
+        metakeywords="DigitarAI, AI marketing, digitar marketing services, SEO, SMM, PPC, search engine optimization"
         breadcrumbs={[{ name: "Home", url: "/" }]}
       />
 
