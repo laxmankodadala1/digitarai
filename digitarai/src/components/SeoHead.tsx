@@ -12,17 +12,30 @@ interface SeoHeadProps {
 export default function SeoHead({
   title,
   description,
+  keywords,
   canonicalUrl = window.location.href,
   ogType = "website",
   faqSchema,
   breadcrumbs,
 }: SeoHeadProps) {
+  
   useEffect(() => {
-    // 1. Set Title
-    document.title = `${title} | DigitarAI - Advanced AI Marketing`;
+    // 1. Set Title exactly as passed from the page
+    document.title = title;
 
     // 2. Set or Update Meta Description
     updateMeta("name", "description", description);
+
+    // 3. Set or Update Meta Keywords (only if keywords are provided)
+    if (keywords) {
+      updateMeta("name", "keywords", keywords);
+    } else {
+      // Optional: Remove keywords tag if navigating to a page without them
+      const existingKeywords = document.querySelector(`meta[name="keywords"]`);
+      if (existingKeywords) {
+        existingKeywords.remove();
+      }
+    }
 
     // 3. Open Graph Tags
     updateMeta("property", "og:title", `${title} | DigitarAI`);
