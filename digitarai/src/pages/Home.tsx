@@ -55,7 +55,7 @@ export default function Home() {
       <SeoHead
         title="Advanced AI-Powered Digital Marketing Solutions"
         description="Transform your enterprise traffic, qualified B2B leads, and digital marketing return-on-investment using DigitarAI modern search algorithms & automated campaign structures."
-        keywords="digitarai, ai, digital marketing, seo, search engine optimization, smm, ppc"
+        keywords="DigitarAI, AI marketing, digitar marketing services, SEO, SMM, PPC, search engine optimization"
         breadcrumbs={[{ name: "Home", url: "/" }]}
       />
 
