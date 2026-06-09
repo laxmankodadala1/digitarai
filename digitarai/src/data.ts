@@ -420,7 +420,7 @@ export const blogPostsData: BlogPost[] = [
     slug: "future-of-ai-seo-2026",
     title: "The Future of AI SEO in 2026: Cracking the Answer Engine Algorithm",
     excerpt: "Discover how AI SEO is transforming search in 2026. Learn how answer engines work, what businesses must do to stay visible, and the strategies needed to rank in AI-powered search results.",
-    Keywords: "AI SEO, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
+    Keywords: "AI SEO, seo, geo, aeo, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
     category: "AI SEO",
     date: "Jun 01, 2026",
     author: "DigitarAI",
