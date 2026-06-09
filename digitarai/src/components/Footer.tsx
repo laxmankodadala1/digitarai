@@ -54,7 +54,7 @@ export default function Footer() {
             {/* Socials */}
             <div className="flex items-center gap-3">
               <a
-                href="https://digitarai.com/"
+                href="https://www.linkedin.com/company/digitarai-solutions"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-600 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"

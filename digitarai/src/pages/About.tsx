@@ -62,21 +62,21 @@ export default function About() {
   // Team members data - easily editable
   const team: TeamMember[] = [
     {
-      name: "Elena Vance",
+      name: "DigitarAI",
       role: "Founder & Director of Search Strategy",
-      bio: "Elena spent 12 years rebuilding sitemap structures and index engines for leading SaaS platforms. She founded DigitarAI to replace sluggish agencies with automated crawler science.",
+      bio: "DigitarAI spent 12 years rebuilding sitemap structures and index engines for leading SaaS platforms. She founded DigitarAI to replace sluggish agencies with automated crawler science.",
       initials: "EV",
     },
     {
-      name: "Marcus Thorne",
+      name: "DigitarAI",
       role: "VP of Inbound Systems & Growth",
-      bio: "Marcus specializes in modeling customer lifetime data. He aligns keyword acquisition campaigns directly with real-world sales pipelines, eliminating wasted advertising spend.",
+      bio: "DigitarAI specializes in modeling customer lifetime data. He aligns keyword acquisition campaigns directly with real-world sales pipelines, eliminating wasted advertising spend.",
       initials: "MT",
     },
     {
-      name: "Amara Cole",
+      name: "DigitarAI",
       role: "Head of Brand Integrity & Creative Strategy",
-      bio: "Amara ensures our partners project authority and trust across B2B grids like LinkedIn and YouTube. She balances technical data metrics with brilliant human copy.",
+      bio: "DigitarAI ensures our partners project authority and trust across B2B grids like LinkedIn and YouTube. She balances technical data metrics with brilliant human copy.",
       initials: "AC",
     },
   ];
@@ -86,7 +86,7 @@ export default function About() {
     {
       year: "2018",
       title: "The Inception",
-      desc: "DigitarAI started as a specialized consultancy in Austin, Texas, assisting early-stage B2B startups with manual technical SEO crawls.",
+      desc: "DigitarAI started as a specialized consultancy in Hyderabad, India, assisting early-stage B2B startups with manual technical SEO crawls.",
     },
     {
       year: "2021",
@@ -110,6 +110,7 @@ export default function About() {
       <SeoHead
         title="About Us - Human-Centric Search Intelligence Masters"
         description="Learn about the passionate search specialists, founders, and engineers operating DigitarAI. We construct organic, human-optimized marketing architectures."
+        keywords="digitarai, seo, aboutus, ai, aiseo, leadership, development"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "About Us", url: "/about-us" },

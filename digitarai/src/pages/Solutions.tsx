@@ -36,7 +36,8 @@ export default function Solutions() {
     <div className="font-sans py-12 lg:py-20 relative">
       <SeoHead
         title="Custom Growth Solutions for Primary Verticals"
-        description="Verify how DigitarAI tackles high customer acquisition costs, organic site speed drops, and ranking limits for technology, ecommerce, healthcare, and enterprise sectors."
+        description="Verify how DigitarAI tackles high customer acquisition costs, organic site speed drops, and ranking limits for Saas, technology, ecommerce, healthcare, and enterprise sectors."
+        keywords="digitarai, solutions, saas, seo for saas website, technology, healthcare, e commerce, education, real estate, rank websites, increase traffic, increase leads, ads, social media, best in the world, the best and top digital marketing services"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Solutions", url: "/solutions" },

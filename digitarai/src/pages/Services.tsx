@@ -49,8 +49,9 @@ export default function Services() {
       <div className="font-sans py-12 lg:py-20 relative">
         {/* Schema markup inject standard */}
         <SeoHead
-          title={`${service.name} Solutions & Optimizations`}
-          description={service.shortDesc}
+          title={service.metaTitle}
+          description={service.metaDescription}
+          keywords={service.metaKeywords}
           faqSchema={service.faqs}
           breadcrumbs={[
             { name: "Home", url: "/" },
@@ -220,6 +221,7 @@ export default function Services() {
       <SeoHead
         title="Enterprise Marketing & SEO Custom Services Catalog"
         description="Comprehensive analysis of DigitarAI technical marketing categories including SEO, SMM, and PPC setups designed for massive commercial growths."
+        keywords="digitarai, ai seo, seo services, smm services, website ranking, ppc, search engine optimization, orm services, ads, geo, social media, advanced seo"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Services", url: "/services" },
@@ -246,7 +248,7 @@ export default function Services() {
               className="bg-white border border-slate-200/60 rounded-3xl p-6 lg:p-10 shadow-sm hover:shadow-md transition grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
             >
               <div className="lg:col-span-8 space-y-4">
-                <span className="text-[10px] text-blue-600 font-bold font-mono tracking-widest uppercase">Channel Service Segment 0{idx + 1}</span>
+                <span className="text-[10px] text-blue-600 font-bold font-mono tracking-widest uppercase">Service 0{idx + 1}</span>
                 <h3 className="text-xl sm:text-2xl font-bold text-slate-900 font-display">{s.name} Setup Page</h3>
                 <p className="text-xs sm:text-sm text-slate-500 leading-relaxed max-w-2xl">{s.shortDesc}</p>
                 
@@ -266,7 +268,7 @@ export default function Services() {
                   to={`/services/${s.slug}`}
                   className="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-6 py-4 rounded-xl transition shadow-md w-full sm:w-auto inline-flex items-center justify-center gap-2 group"
                 >
-                  View Active Dedicated Page <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  View Page <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
             </div>

@@ -3,6 +3,7 @@ import { useEffect } from "react";
 interface SeoHeadProps {
   title: string;
   description: string;
+  keywords?: string;
   canonicalUrl?: string;
   ogType?: "website" | "article";
   faqSchema?: { question: string; answer: string }[];

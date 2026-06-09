@@ -5,7 +5,9 @@ export const servicesData: ServiceItem[] = [
     slug: "seo",
     name: "Advanced AI SEO",
     title: "Autonomous Search Performance & Core Indexing Optimizations",
-    shortDesc: "Outrank competitors, index faster, and drive organic commercial traffic with continuous AI-driven SEO architecture.",
+    metaTitle: "Advanced AI SEO Services: Autonomous Search Performance Optimization", 
+    metaDescription: "Outrank competitors and scale search traffic. Learn how our enterprise-grade AI SEO suite automates technical audits, custom schema injections, and keyword mapping.",
+    metaKeywords: "Advanced AI SEO, autonomous search optimization, core indexing, semantic search intent, seo services, increase traffic, generate leads, grow business, ai seo, aeo, geo, keywords ranking, technical seo, on page and off page optimization",
     description: "Our enterprise-grade Search Engine Optimization suite leverages custom machine learning parsers to run continuous audits, execute schema injections, predict search pattern trends, and boost core rankings faster than standard agencies.",
     icon: "Search",
     details: [
@@ -64,7 +66,9 @@ export const servicesData: ServiceItem[] = [
     slug: "smm",
     name: "SMM Intelligence",
     title: "Intelligent Social Media Scaling & Community Engagement",
-    shortDesc: "Automate profile building, boost viral conversion metrics, and engage core audiences across leading social channels with AI curation.",
+    metaTitle: "Grow your Business in Social Media with DigitarAI. Intelligent Social Media Scaling & Community Engagement", 
+    metaDescription: "Automate profile building, boost viral conversion metrics, and engage core audiences across leading social channels. DigitarAI will gives the best SMM services for your business.",
+    metaKeywords: "smm, social media marketing, social media management, profile optimization, social media ads, facebook management, instagram profile management, Linkedin Management",
     description: "Social media isn't just about posting; it's about audience acquisition. DigitarAI combines computational asset creation with real-time intent maps to scale brand authority securely across target platforms.",
     icon: "Users",
     details: [
@@ -109,7 +113,9 @@ export const servicesData: ServiceItem[] = [
     slug: "ppc",
     name: "Precision PPC",
     title: "Hyper-Targeted Pay-Per-Click Ad Programs and Remarketing",
-    shortDesc: "Maximize returns and eliminate ad spend leakages with high-precision Google, Meta, and Retargeting pipelines.",
+    metaTitle: "Hyper-Targeted Pay-Per-Click Ad Programs and Remarketing | DigitarAI", 
+    metaDescription: "Maximize returns and eliminate ad spend leakages with high-precision Google, Meta, and Retargeting pipelines. DigitarAI provide best ppc services for your business.",
+    metaKeywords: "ppc, pay per click, google ads, social media ads, linkedin ads, meta ads, facebook ads, advertise, increase leads, digitarai",
     description: "Bidding on standard ad setups wastes massive corporate capital. Our PPC optimizer maps buyer intent to execute micro-bids, ensuring your ad spend connects only when high-value conversion intent is detected.",
     icon: "Target",
     details: [
@@ -149,7 +155,9 @@ export const servicesData: ServiceItem[] = [
     slug: "orm",
     name: "ORM & Reputation Protect",
     title: "Brand Protection, Reputation Management & Review Optimization",
-    shortDesc: "Neutralize negative complaints, claim positive business ratings, and maintain pristine public confidence index scores.",
+    metaTitle: "Brand Protection, Reputation Management & Review Optimization | DigitarAI", 
+    metaDescription: "Neutralize negative complaints, claim positive business ratings, and maintain pristine public confidence index scores. Grow your business with DigitarAI.",
+    metaKeywords: "orm, online reputation management, online marketing, digital marketing, reviews and ratings",
     description: "Online reputation dictates conversion rates. Our active Online Reputation Management (ORM) system monitors negative search variables, encourages five-star corporate reviews, and minimizes competitor attack articles with ethical suppression.",
     icon: "ShieldAlert",
     details: [
@@ -189,7 +197,9 @@ export const servicesData: ServiceItem[] = [
     slug: "content-marketing",
     name: "Content Marketing",
     title: "Revenue-Focused Content Strategy & Authority Placement",
-    shortDesc: "Publish high-intent research, authority industry pieces, and informational guides that converts readers into brand advocates.",
+    metaTitle: "Revenue-Focused Content Strategy & Authority Placement | DigitarAI", 
+    metaDescription: "Publish high-intent research, authority industry pieces, and informational guides that converts readers into brand advocates. Grow your business with DigitarAI.",
+    metaKeywords: "conntent marketing, seo, content strategy, content opimizition",
     description: "Most content fails to rank or convert. We draft authoritative, long-form industry guides engineered from raw keyword gaps. This ensures your content answers precise questions, driving real SQL lead pipelines.",
     icon: "FileText",
     details: [
@@ -211,7 +221,9 @@ export const servicesData: ServiceItem[] = [
     slug: "lead-generation",
     name: "Lead Generation",
     title: "Autonomous Inbound Direct-Response Performance Funnels",
-    shortDesc: "Establish reliable client acquisition portals that continuously supply highly qualified ready-to-buy prospects to your sales team.",
+    metaTitle: "Autonomous Inbound Direct-Response Performance Funnels | DigitarAI", 
+    metaDescription: "Establish reliable client acquisition portals that continuously supply highly qualified ready-to-buy prospects to your sales team. Grow your business with DigitarAI.",
+    metaKeywords: "lead generation, seo, digitarai, seo, smm, ppc, ads, search rankings, increase keywords rankings, increase traffic, grow business",
     description: "Stop cold calling. Build an autonomous lead machine that qualifies target accounts with contextual forms, tracks lead intent, and scores records before putting them directly in your CRM dashboard.",
     icon: "UserCheck",
     details: [
@@ -420,7 +432,7 @@ export const blogPostsData: BlogPost[] = [
     slug: "future-of-ai-seo-2026",
     title: "The Future of AI SEO in 2026: Cracking the Answer Engine Algorithm",
     excerpt: "Discover how AI SEO is transforming search in 2026. Learn how answer engines work, what businesses must do to stay visible, and the strategies needed to rank in AI-powered search results.",
-    Keywords: "AI SEO, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
+    metaKeywords: "AI SEO, digitarai,  geo, seo, aeo, ranking, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
     category: "AI SEO",
     date: "Jun 01, 2026",
     author: "DigitarAI",
@@ -428,11 +440,7 @@ export const blogPostsData: BlogPost[] = [
     isFeatured: true,
     image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/public/The%20Future%20of%20AI%20SEO%20in%202026%20Cracking%20the%20Answer%20Engine%20Algorithm%20(1).png",
     
-    metaTitle: "The Future of AI SEO in 2026: How to Rank in Answer Engines and AI Search",
-    metaDescription: "Discover how AI SEO is transforming search in 2026. Learn how answer engines work, what businesses must do to stay visible, and the strategies needed to rank in AI-powered search results.",
-    metaKeywords: "AI SEO, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
-
-    content: `
+      content: `
       <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">Search engine optimization has changed dramatically over the past decade. What started as keyword-focused optimization has evolved into a sophisticated strategy centered around user intent, content quality, and search experience. In 2026, another major transformation is taking place: the rise of <strong>Answer Engine Optimization (AEO)</strong>.</p>
 
       <p class="mb-6 leading-relaxed">Traditional search engines are no longer the only source of information. AI-powered search experiences are becoming the preferred way for users to find answers, recommendations, and solutions. Instead of browsing through ten blue links, users now receive direct answers generated by artificial intelligence.</p>
@@ -536,6 +544,7 @@ export const blogPostsData: BlogPost[] = [
     slug: "ai-powered-seo-complete-guide",
     title: "AI-Powered SEO: The Complete Guide to Ranking Higher on Google",
     excerpt: "Learn how AI-powered SEO is transforming search rankings. Discover AI keyword research, content optimization, technical SEO automation, search intent analysis, and the best AI SEO tools to improve your Google rankings.",
+    metaKeywords: "ai seo, seo guide, ranking keywords, google seo, technical seo, digitarai, backlinks, on page seo, ads, aeo, geo, search engine optimization",
     category: "AI SEO",
     date: "Jun 06, 2026",
     author: "DigitarAI",
@@ -543,11 +552,7 @@ export const blogPostsData: BlogPost[] = [
     isFeatured: false,
     image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/SEO%20img.png",
     
-    metaTitle: "AI-Powered SEO: The Complete Guide to Ranking Higher on Google in 2026",
-    metaDescription: "Learn how AI-powered SEO is transforming search rankings. Discover AI keyword research, content optimization, technical SEO automation, search intent analysis, and the best AI SEO tools to improve your Google rankings.",
-    metaKeywords: "AI Powered SEO, Google SEO Guide 2026, content optimization AI, technical SEO automation, search intent analytics, topic clusters",
-
-    content: `
+        content: `
       <p class="mb-6 text-lg text-slate-700 leading-relaxed font-normal">Search Engine Optimization (SEO) has always been one of the most effective ways to drive organic traffic to a website. However, the SEO landscape is evolving rapidly. With artificial intelligence becoming a major part of search engines and digital marketing platforms, businesses need smarter strategies to stay competitive.</p>
 
       <p class="mb-6 leading-relaxed text-slate-600">Today, SEO is no longer just about inserting keywords into web pages and building backlinks. Google's algorithms have become more sophisticated, focusing on user intent, content quality, experience, and relevance. At the same time, AI-powered tools are helping marketers automate complex SEO tasks, uncover valuable insights, and create better content faster than ever before.</p>
@@ -704,7 +709,7 @@ export const blogPostsData: BlogPost[] = [
     slug: "saas-growth-advanced-ai-seo-digital-marketing",
     title: "How SaaS Companies Can Grow Their Business with Advanced AI SEO and Digital Marketing",
     excerpt: "Discover how SaaS companies can increase website traffic, improve Domain Authority, generate qualified leads, and accelerate growth using AI SEO, content marketing, technical SEO, and advanced digital marketing strategies.",
-  Keywords: "SaaS SEO strategy, AI SEO for software, SaaS content marketing, technical SEO automation, customer acquisition funnel, Domain Authority",  
+  Keywords: "SaaS SEO strategy, saas, software as a service, saas website marketing, digitarai, AI SEO for software, SaaS content marketing, technical SEO automation, customer acquisition funnel, Domain Authority, increase traffic, grow saas business",  
   category: "SaaS Marketing",
     date: "Jun 07, 2026",
     author: "DigitarAI",
@@ -858,6 +863,112 @@ export const blogPostsData: BlogPost[] = [
       <p class="mb-4 leading-relaxed text-slate-600">For modern SaaS companies, search visibility is a fundamental growth requirement. No matter how powerful or transformative your software application is, it can only grow if potential users can find it during their decision-making process. By implementing advanced AI SEO alongside a focused content strategy, your platform can attract relevant, high-intent audiences at scale, build lasting market authority, and achieve sustainable long-term revenue growth.</p>
     `
   },
-  
+
+  {
+    slug: "best-digital-marketing-agency-hyderabad-digitarai",
+    title: "Best Digital Marketing Agency in Hyderabad: How DigitarAI Helps Businesses Grow with AI-Powered SEO",
+    excerpt: "Discover how DigitarAI uses AI-powered SEO, SMM, and GEO optimization to help Hyderabad businesses increase traffic, generate quality leads, and boost domain authority.",
+    metaKeywords: "Best Digital Marketing Agency in Hyderabad, SEO Services in Hyderabad, AI SEO Agency, Lead Generation Services, GEO Optimization, AEO Optimization",
+    category: "Digital Marketing",
+    date: "Jun 09, 2026",
+    author: "DigitarAI",
+    readTime: "8 min read",
+    isFeatured: true,
+    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/SEO.png",
+    
+      content: `
+      <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">Simply having a website is not enough. Thousands of businesses launch online every day, yet only a small fraction achieve consistent traffic and sales. This is where <strong>DigitarAI</strong> steps in redefining growth through intelligence.</p>
+
+      <div class="my-8 p-6 bg-indigo-50 border-l-4 border-indigo-600 rounded-r-xl">
+        <p class="text-slate-800 font-medium italic">"The main reason businesses fail to grow online isn't a lack of product quality; it's a lack of visibility. Without a proper AI-driven strategy, even the best services remain invisible."</p>
+      </div>
+
+      <h2 class="text-2xl font-bold text-slate-800 mt-10 mb-4">Why Digital Marketing is Essential for Business Growth</h2>
+      <p class="mb-6 leading-relaxed">Consumer behavior has shifted. Whether searching for the <em>"Best digital marketing agency in Hyderabad"</em> or <em>"SEO services near me,"</em> every search is a high-intent business opportunity. Digital marketing ensures you are the one they find.</p>
+
+      <div class="my-10 overflow-hidden border border-slate-200 rounded-xl">
+        <table class="w-full text-left border-collapse">
+          <thead class="bg-slate-50">
+            <tr>
+              <th class="p-4 font-semibold text-slate-700 border-b">Service Focus</th>
+              <th class="p-4 font-semibold text-slate-700 border-b">Traditional Method</th>
+              <th class="p-4 font-semibold text-indigo-600 border-b">DigitarAI AI-Approach</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-4 border-b text-slate-600">SEO</td>
+              <td class="p-4 border-b text-slate-600">Keyword Stuffing</td>
+              <td class="p-4 border-b font-medium text-slate-800">User Intent & Semantic AI</td>
+            </tr>
+            <tr>
+              <td class="p-4 border-b text-slate-600">Content</td>
+              <td class="p-4 border-b text-slate-600">Generic Blogs</td>
+              <td class="p-4 border-b font-medium text-slate-800">AEO & Answer-Engine Ready</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-slate-600">Advertising</td>
+              <td class="p-4 text-slate-600">Broad Targeting</td>
+              <td class="p-4 font-medium text-slate-800">High-Conversion Predictive Ads</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl font-bold text-slate-800 mt-10 mb-4">What Makes DigitarAI Different?</h2>
+      <p class="mb-6 leading-relaxed">We combine traditional expertise with <strong>Generative Engine Optimization (GEO)</strong> and <strong>Answer Engine Optimization (AEO)</strong>. We don't just optimize for Google; we optimize for the future of search.</p>
+      
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <li class="flex items-center p-3 bg-slate-50 rounded-lg border border-slate-100">
+          <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span> AI-Powered Keyword Research
+        </li>
+        <li class="flex items-center p-3 bg-slate-50 rounded-lg border border-slate-100">
+          <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span> GEO & AEO Optimization
+        </li>
+        <li class="flex items-center p-3 bg-slate-50 rounded-lg border border-slate-100">
+          <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span> High-Authority Backlink Building
+        </li>
+        <li class="flex items-center p-3 bg-slate-50 rounded-lg border border-slate-100">
+          <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span> Online Reputation Management
+        </li>
+      </ul>
+
+      <h2 class="text-2xl font-bold text-slate-800 mt-10 mb-4">Local SEO: Dominating the Hyderabad Market</h2>
+      <p class="mb-6 leading-relaxed">For businesses in Hyderabad, visibility starts locally. Our Local SEO strategies ensure your business appears in the <strong>Google Maps "3-Pack"</strong> and answers "near me" queries instantly.</p>
+
+      <div class="my-12 relative border-l-2 border-indigo-200 ml-4 pl-8 space-y-8">
+        <div>
+          <div class="absolute -left-2 w-4 h-4 bg-indigo-600 rounded-full"></div>
+          <h4 class="font-bold text-slate-800">Step 1: AI Analysis</h4>
+          <p class="text-slate-600">We crawl your niche using AI to find "gap keywords" competitors missed.</p>
+        </div>
+        <div>
+          <div class="absolute -left-2 w-4 h-4 bg-indigo-600 rounded-full"></div>
+          <h4 class="font-bold text-slate-800">Step 2: Authority Building</h4>
+          <p class="text-slate-600">Improving Domain Authority (DA) through high-quality, relevant link acquisition.</p>
+        </div>
+        <div>
+          <div class="absolute -left-2 w-4 h-4 bg-indigo-600 rounded-full"></div>
+          <h4 class="font-bold text-slate-800">Step 3: Conversion & Scaling</h4>
+          <p class="text-slate-600">Turning traffic into leads using landing page optimization and CRO techniques.</p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl font-bold text-slate-800 mt-10 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div class="p-4 bg-slate-50 rounded-xl">
+          <h4 class="font-bold text-slate-800">Why is DigitarAI the best agency in Hyderabad?</h4>
+          <p class="text-slate-600 mt-2">We are the first to integrate AI-specific optimization (GEO/AEO) alongside traditional SEO, giving our clients a 2-year headstart over competitors.</p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-xl">
+          <h4 class="font-bold text-slate-800">How long does SEO take to show results?</h4>
+          <p class="text-slate-600 mt-2">With our AI-accelerated methods, clients typically see noticeable ranking shifts within 3 to 6 months.</p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl font-bold text-slate-800 mt-10 mb-4">Conclusion</h2>
+      <p class="mb-6 leading-relaxed">Finding the right digital partner can determine the trajectory of your business. In an era where search engines are becoming "Answer Engines," you need an agency that speaks the language of AI. DigitarAI is ready to help you grow faster, smarter, and stronger.</p>
+    `
+}
 
 ];
