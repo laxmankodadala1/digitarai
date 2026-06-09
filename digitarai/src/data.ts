@@ -5,7 +5,9 @@ export const servicesData: ServiceItem[] = [
     slug: "seo",
     name: "Advanced AI SEO",
     title: "Autonomous Search Performance & Core Indexing Optimizations",
-    shortDesc: "Outrank competitors, index faster, and drive organic commercial traffic with continuous AI-driven SEO architecture.",
+    metaTitle: "Advanced AI SEO Services: Autonomous Search Performance Optimization", 
+    metaDescription: "Outrank competitors and scale search traffic. Learn how our enterprise-grade AI SEO suite automates technical audits, custom schema injections, and keyword mapping.",
+    metaKeywords: "Advanced AI SEO, autonomous search optimization, core indexing, semantic search intent",
     description: "Our enterprise-grade Search Engine Optimization suite leverages custom machine learning parsers to run continuous audits, execute schema injections, predict search pattern trends, and boost core rankings faster than standard agencies.",
     icon: "Search",
     details: [
