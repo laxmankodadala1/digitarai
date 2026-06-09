@@ -866,7 +866,7 @@ export const blogPostsData: BlogPost[] = [
 
   {
     slug: "best-digital-marketing-agency-hyderabad-digitarai",
-    title: "Best Digital Marketing Agency in Hyderabad: How DigitarAI Helps Businesses Grow with AI-Powered SEO and Digital Marketing",
+    title: "Best Digital Marketing Agency in Hyderabad: DigitarAI Helps Businesses Grow with AI-Powered SEO and Digital Marketing",
     excerpt: "Looking for the best digital marketing agency in Hyderabad? Discover how DigitarAI helps businesses increase website traffic, generate quality leads, improve keyword rankings, boost Domain Authority, and grow faster using AI-powered SEO, SMM, PPC, ORM, Content Marketing, GEO, and AEO strategies.",
     metaKeywords: "Best Digital Marketing Agency in Hyderabad, SEO Services in Hyderabad, AI SEO Agency, Digital Marketing Company Hyderabad, Lead Generation Services, AI-Powered SEO, Local SEO Services Hyderabad, Content Marketing Services, PPC Management Services, Social Media Marketing Agency, Online Reputation Management, GEO Optimization, AEO Optimization, Domain Authority Improvement, Quality Backlink Building",
     category: "Digital Marketing",
@@ -877,7 +877,7 @@ export const blogPostsData: BlogPost[] = [
     image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/SEO.png",
     
      content: `
-      <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">In today's digital world, having a website is not enough. Thousands of businesses launch websites every day, but only a small percentage of them receive consistent traffic, quality leads, and sales.</p>
+      <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">Having a website is not enough. Thousands of businesses launch websites every day, but only a small percentage of them receive consistent traffic, quality leads, and sales.</p>
 
       <p class="mb-6 text-slate-600 leading-relaxed">Many business owners invest in beautiful websites but struggle to attract visitors. Others run advertisements but fail to generate profitable returns. The main reason is simple: without a proper digital marketing strategy, even the best products and services remain invisible online.</p>
 
@@ -1125,7 +1125,7 @@ export const blogPostsData: BlogPost[] = [
 
       <h2 class="text-2xl font-bold text-slate-800 mt-10 mb-4">Online Reputation Management (ORM) & Advanced Schema</h2>
       <p class="mb-6 text-slate-600 leading-relaxed">Your digital brand reputation directly impacts consumer conversion actions. Potential customers consistently read past client feedback parameters before finalizing buying journeys. DigitarAI systematically tracks online references, works to organically improve total profile feedback trends, manages user response structures, and continuously shields online credibility.</p>
-      <p class="mb-6 text-slate-600 leading-relaxed">Simultaneously, we build comprehensive **Schema Markups** across your domain files. This provides advanced structured context signals directly to crawl systems, instantly paving paths for rich snippet search presence upgrades and dramatically higher CTR percentages.</p>
+      <p class="mb-6 text-slate-600 leading-relaxed">Simultaneously, we build comprehensive Schema Markups across your domain files. This provides advanced structured context signals directly to crawl systems, instantly paving paths for rich snippet search presence upgrades and dramatically higher CTR percentages.</p>
 
       <hr class="my-10 border-slate-200" />
 
@@ -1164,7 +1164,7 @@ export const blogPostsData: BlogPost[] = [
         </div>
         <div class="p-5 bg-slate-50 rounded-xl border border-slate-100">
           <h4 class="font-bold text-slate-800">Can DigitarAI increase website traffic?</h4>
-          <p class="text-slate-600 text-sm mt-2">Yes. Our holistic approach—encompassing modern SEO, content marketing, structured link building, and code optimizations—is designed specifically to drive highly targeted organic traffic.</p>
+          <p class="text-slate-600 text-sm mt-2">Yes. Our holistic approach encompassing modern SEO, content marketing, structured link building, and code optimizations is designed specifically to drive highly targeted organic traffic.</p>
         </div>
         <div class="p-5 bg-slate-50 rounded-xl border border-slate-100">
           <h4 class="font-bold text-slate-800">What industries does DigitarAI serve?</h4>
