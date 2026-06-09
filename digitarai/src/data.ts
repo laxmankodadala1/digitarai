@@ -430,7 +430,7 @@ export const blogPostsData: BlogPost[] = [
     
     metaTitle: "The Future of AI SEO in 2026: How to Rank in Answer Engines and AI Search",
     metaDescription: "Discover how AI SEO is transforming search in 2026. Learn how answer engines work, what businesses must do to stay visible, and the strategies needed to rank in AI-powered search results.",
-    metaKeywords: "AI SEO, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
+    metaKeywords: "AI SEO,digitarai,  geo, seo, aeo, ranking, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
 
     content: `
       <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">Search engine optimization has changed dramatically over the past decade. What started as keyword-focused optimization has evolved into a sophisticated strategy centered around user intent, content quality, and search experience. In 2026, another major transformation is taking place: the rise of <strong>Answer Engine Optimization (AEO)</strong>.</p>
