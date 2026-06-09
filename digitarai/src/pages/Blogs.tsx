@@ -147,6 +147,7 @@ export default function Blogs() {
       <SeoHead
         title="AI Digital Marketing Research & Insights Blog"
         description="Read comprehensive guides, technical SEO sitemaps checklists, PPC audits, and modern SMM scaling strategies published by DigitarAI search engineers."
+        keywords="ai seo, seo, blogs, digitarai, search engine optimization, smm, ppc, social media, ads, technical seo, digital marketing"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Blogs", url: "/blogs" },
