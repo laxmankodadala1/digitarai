@@ -431,8 +431,6 @@ export const blogPostsData: BlogPost[] = [
   {
     slug: "future-of-ai-seo-2026",
     title: "The Future of AI SEO in 2026: Cracking the Answer Engine Algorithm",
-    excerpt: "Discover how AI SEO is transforming search in 2026. Learn how answer engines work, what businesses must do to stay visible, and the strategies needed to rank in AI-powered search results.",
-    Keywords: "AI SEO, seo, geo, aeo, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
     category: "AI SEO",
     date: "Jun 01, 2026",
     author: "DigitarAI",
@@ -442,7 +440,7 @@ export const blogPostsData: BlogPost[] = [
     
     metaTitle: "The Future of AI SEO in 2026: How to Rank in Answer Engines and AI Search",
     metaDescription: "Discover how AI SEO is transforming search in 2026. Learn how answer engines work, what businesses must do to stay visible, and the strategies needed to rank in AI-powered search results.",
-    metaKeywords: "AI SEO,digitarai,  geo, seo, aeo, ranking, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
+    metaKeywords: "AI SEO, digitarai,  geo, seo, aeo, ranking, Answer Engine Optimization, AEO algorithm, AI search results, semantic search, topical authority",
 
     content: `
       <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">Search engine optimization has changed dramatically over the past decade. What started as keyword-focused optimization has evolved into a sophisticated strategy centered around user intent, content quality, and search experience. In 2026, another major transformation is taking place: the rise of <strong>Answer Engine Optimization (AEO)</strong>.</p>
@@ -882,14 +880,14 @@ export const blogPostsData: BlogPost[] = [
     author: "DigitarAI",
     readTime: "8 min read",
     isFeatured: true,
-    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/public/best-digital-marketing-agency-hyderabad.png",
+    image: "https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/SEO.png",
     
     metaTitle: "Best Digital Marketing Agency in Hyderabad | AI-Powered SEO & Lead Gen",
     metaDescription: "Looking for the best digital marketing agency in Hyderabad? DigitarAI uses AI-powered SEO, SMM, PPC, and AEO strategies to grow your business faster.",
     metaKeywords: "Best Digital Marketing Agency in Hyderabad, DigitarAI, AI SEO, SEO services Hyderabad, PPC management, Local SEO, GEO, AEO, Domain Authority",
 
     content: `
-      <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">In today's digital world, simply having a website is not enough. Thousands of businesses launch online every day, yet only a small fraction achieve consistent traffic and sales. This is where <strong>DigitarAI</strong> steps in—redefining growth through intelligence.</p>
+      <p class="mb-6 text-lg text-slate-600 leading-relaxed font-normal">Simply having a website is not enough. Thousands of businesses launch online every day, yet only a small fraction achieve consistent traffic and sales. This is where <strong>DigitarAI</strong> steps in redefining growth through intelligence.</p>
 
       <div class="my-8 p-6 bg-indigo-50 border-l-4 border-indigo-600 rounded-r-xl">
         <p class="text-slate-800 font-medium italic">"The main reason businesses fail to grow online isn't a lack of product quality; it's a lack of visibility. Without a proper AI-driven strategy, even the best services remain invisible."</p>
