@@ -49,8 +49,9 @@ export default function Services() {
       <div className="font-sans py-12 lg:py-20 relative">
         {/* Schema markup inject standard */}
         <SeoHead
-          title={`${service.name} Solutions & Optimizations`}
-          description={service.shortDesc}
+          title={service.metaTitle}
+          description={service.metaDescription}
+          keywords={service.metaKeywords}
           faqSchema={service.faqs}
           breadcrumbs={[
             { name: "Home", url: "/" },
