@@ -8,6 +8,9 @@ export const servicesData: ServiceItem[] = [
     shortDesc: "Outrank competitors, index faster, and drive organic commercial traffic with continuous AI-driven SEO architecture.",
     description: "Our enterprise-grade Search Engine Optimization suite leverages custom machine learning parsers to run continuous audits, execute schema injections, predict search pattern trends, and boost core rankings faster than standard agencies.",
     icon: "Search",
+    metaTitle: "Advanced AI SEO Services: Search Performance Optimization | DigitarAI",
+    metaDescription: "Outrank competitors and scale search traffic. Learn how our enterprise-grade AI SEO suite automates technical audits, custom schema injections, and keyword mapping.",
+    metaKeywords: "Advanced AI SEO, seo, search engine optimization, geo, aeo, autonomous search optimization, core indexing, semantic search intent, automated technical schema, enterprise SEO infrastructure",
     details: [
       "On-Page SEO keyword alignment",
       "Core Web Vitals acceleration",
