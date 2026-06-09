@@ -7,7 +7,7 @@ export const servicesData: ServiceItem[] = [
     title: "Autonomous Search Performance & Core Indexing Optimizations",
     metaTitle: "Advanced AI SEO Services: Autonomous Search Performance Optimization", 
     metaDescription: "Outrank competitors and scale search traffic. Learn how our enterprise-grade AI SEO suite automates technical audits, custom schema injections, and keyword mapping.",
-    metaKeywords: "Advanced AI SEO, autonomous search optimization, core indexing, semantic search intent",
+    metaKeywords: "Advanced AI SEO, autonomous search optimization, core indexing, semantic search intent, seo services, increase traffic, generate leads, grow business, ai seo, aeo, geo, keywords ranking, technical seo, on page and off page optimization",
     description: "Our enterprise-grade Search Engine Optimization suite leverages custom machine learning parsers to run continuous audits, execute schema injections, predict search pattern trends, and boost core rankings faster than standard agencies.",
     icon: "Search",
     details: [
@@ -66,7 +66,9 @@ export const servicesData: ServiceItem[] = [
     slug: "smm",
     name: "SMM Intelligence",
     title: "Intelligent Social Media Scaling & Community Engagement",
-    shortDesc: "Automate profile building, boost viral conversion metrics, and engage core audiences across leading social channels with AI curation.",
+    metaTitle: "Grow your Business in Social Media with DigitarAI. Intelligent Social Media Scaling & Community Engagement", 
+    metaDescription: "Automate profile building, boost viral conversion metrics, and engage core audiences across leading social channels with AI curation.",
+    metaKeywords: "smm, social media marketing, social media management, profile optimization, social media ads, facebook management, instagram profile management, Linkedin Management",
     description: "Social media isn't just about posting; it's about audience acquisition. DigitarAI combines computational asset creation with real-time intent maps to scale brand authority securely across target platforms.",
     icon: "Users",
     details: [
