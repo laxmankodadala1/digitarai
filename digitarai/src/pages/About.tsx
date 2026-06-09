@@ -110,6 +110,7 @@ export default function About() {
       <SeoHead
         title="About Us - Human-Centric Search Intelligence Masters"
         description="Learn about the passionate search specialists, founders, and engineers operating DigitarAI. We construct organic, human-optimized marketing architectures."
+        keywords="digitarai, seo, aboutus, ai, aiseo, leadership, development"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "About Us", url: "/about-us" },
