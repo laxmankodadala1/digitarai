@@ -96,39 +96,27 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Services & Solutions */}
-        <div>
-          <h4 className="text-xs font-bold text-slate-100 uppercase tracking-widest mb-4">Focus Services</h4>
-          <ul className="space-y-2 text-sm text-slate-400">
-            <li><Link to="/services/seo" className="hover:text-blue-400 transition">Advanced AI SEO</Link></li>
-            <li><Link to="/services/smm" className="hover:text-blue-400 transition">SMM Intelligence</Link></li>
-            <li><Link to="/services/ppc" className="hover:text-blue-400 transition">Precision PPC Campaigns</Link></li>
-            <li><Link to="/services/orm" className="hover:text-blue-400 transition">ORM & Reputation Protect</Link></li>
-            <li><Link to="/services/content-marketing" className="hover:text-blue-400 transition">AI Content Marketing</Link></li>
-            <li><Link to="/services/lead-generation" className="hover:text-blue-400 transition">Smart Lead Generation</Link></li>
-          </ul>
-        </div>
-
-        {/* Column 4: Contact Us */}
-        <div>
-          {/* Email Link with Mail Icon */}
-          <div className="mb-4">
-            <a 
-              href="mailto:digitaraisolutions@gmail.com" 
-              className="inline-flex items-center gap-2 text-xs text-slate-400 hover:text-blue-500 transition-colors"
-            >
-              <Mail className="w-3.5 h-3.5" />
-              <span>digitaraisolutions@gmail.com</span>
-            </a>
+          <div>
+            <h4 className="text-xs font-bold text-slate-100 uppercase tracking-widest mb-4">Focus Services</h4>
+            <ul className="space-y-2 text-sm text-slate-400">
+              <li><Link to="/services/seo" className="hover:text-blue-400 transition">Advanced AI SEO</Link></li>
+              <li><Link to="/services/smm" className="hover:text-blue-400 transition">SMM Intelligence</Link></li>
+              <li><Link to="/services/ppc" className="hover:text-blue-400 transition">Precision PPC Campaigns</Link></li>
+              <li><Link to="/services/orm" className="hover:text-blue-400 transition">ORM & Reputation Protect</Link></li>
+              <li><Link to="/services/content-marketing" className="hover:text-blue-400 transition">AI Content Marketing</Link></li>
+              <li><Link to="/services/lead-generation" className="hover:text-blue-400 transition">Smart Lead Generation</Link></li>
+            </ul>
           </div>
 
+
+      {/* Column 4: Contact Us */}
+        <div>
           <h4 className="text-xs font-bold text-slate-100 uppercase tracking-widest mb-4">
             Contact Us
           </h4>
-          
           <p className="text-xs text-slate-400 mb-4 leading-relaxed">
             Have questions about scaling your traffic? Get in touch with our digital marketing experts today.
           </p>
-          
           <a
             href="https://digitarai.com/contact"
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2.5 rounded-xl transition shadow-lg shadow-blue-600/10"
@@ -137,18 +125,18 @@ export default function Footer() {
             <ArrowRight className="w-3.5 h-3.5" />
           </a>
         </div>
-      </div> {/* Closes the columns wrapper div */}
+      </div>
 
-      {/* Copyright & Bottom policies list */}
-      <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500 border-t border-slate-800/50 mt-8">
-        <p>© 2026 DigitarAI. All Rights Reserved. Advanced AI Digital Marketing Corporation.</p>
-        <div className="flex items-center gap-6">
-          <Link to="/privacy" className="hover:text-slate-300 transition underline decoration-dotted">Privacy Policy</Link>
-          <Link to="/terms" className="hover:text-slate-300 transition underline decoration-dotted">Terms & Conditions</Link>
+        {/* Copyright & Bottom policies list */}
+        <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+          <p>© 2026 DigitarAI. All Rights Reserved. Advanced AI Digital Marketing Corporation.</p>
+          <div className="flex items-center gap-6">
+            <Link to="/contact" className="hover:text-slate-300 transition underline decoration-dotted">Privacy Policy</Link>
+            <Link to="/contact" className="hover:text-slate-300 transition underline decoration-dotted">Terms & Conditions</Link>
+          </div>
         </div>
-      </div> {/* Closes the copyright bar div */}
+      </div>
     </footer>
   );
 }
 
-export default Footer; // Ensure your export statement matches your setup
