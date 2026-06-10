@@ -110,22 +110,34 @@ export default function Footer() {
 
 
       {/* Column 4: Contact Us */}
-        <div>
-          <h4 className="text-xs font-bold text-slate-100 uppercase tracking-widest mb-4">
-            Contact Us
-          </h4>
-          <p className="text-xs text-slate-400 mb-4 leading-relaxed">
-            Have questions about scaling your traffic? Get in touch with our digital marketing experts today.
-          </p>
-          <a
-            href="https://digitarai.com/contact"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2.5 rounded-xl transition shadow-lg shadow-blue-600/10"
-          >
-            <span>Get in Touch</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </a>
-        </div>
-      </div>
+<div>
+  {/* Email Link with Mail Icon */}
+  <div className="mb-4">
+    <a 
+      href="mailto:digitaraisolutions@gmail.com" 
+      className="inline-flex items-center gap-2 text-xs text-slate-400 hover:text-blue-500 transition-colors"
+    >
+      <Mail className="w-3.5 h-3.5" />
+      <span>digitaraisolutions@gmail.com</span>
+    </a>
+  </div>
+
+  <h4 className="text-xs font-bold text-slate-100 uppercase tracking-widest mb-4">
+    Contact Us
+  </h4>
+  
+  <p className="text-xs text-slate-400 mb-4 leading-relaxed">
+    Have questions about scaling your traffic? Get in touch with our digital marketing experts today.
+  </p>
+  
+  <a
+    href="https://digitarai.com/contact"
+    className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2.5 rounded-xl transition shadow-lg shadow-blue-600/10"
+  >
+    <span>Get in Touch</span>
+    <ArrowRight className="w-3.5 h-3.5" />
+  </a>
+</div>
 
         {/* Copyright & Bottom policies list */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
