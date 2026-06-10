@@ -137,7 +137,7 @@ export default function Footer() {
             <ArrowRight className="w-3.5 h-3.5" />
           </a>
         </div>
-      </div> {/* Closing your main grid/flex container */}
+      </div> {/* Closes the columns wrapper div */}
 
       {/* Copyright & Bottom policies list */}
       <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500 border-t border-slate-800/50 mt-8">
@@ -146,7 +146,9 @@ export default function Footer() {
           <Link to="/privacy" className="hover:text-slate-300 transition underline decoration-dotted">Privacy Policy</Link>
           <Link to="/terms" className="hover:text-slate-300 transition underline decoration-dotted">Terms & Conditions</Link>
         </div>
-      </div>
+      </div> {/* Closes the copyright bar div */}
     </footer>
   );
 }
+
+export default Footer; // Ensure your export statement matches your setup
