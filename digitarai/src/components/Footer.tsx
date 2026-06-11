@@ -49,7 +49,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm text-slate-400 mb-6 leading-relaxed max-w-sm">
-              DigitarAI is a top-tier, enterprise-grade AI Digital Marketing solutions developer. We transform enterprise growth through deep optimization algorithms and automated ad campaigns.
+              DigitarAI is a top-tier, enterprise-grade Digital Marketing solutions developer. We transform enterprise growth through deep optimization algorithms and automated ad campaigns.
             </p>
             {/* Socials */}
             <div className="flex items-center gap-3">
@@ -80,6 +80,13 @@ export default function Footer() {
               >
                 <Instagram className="w-4 h-4" />
               </a>
+              <a
+  href="mailto:digitaraisolutions@gmail.com"
+  className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-500 hover:text-white flex items-center justify-center border border-slate-800 transition text-slate-400"
+  aria-label="Email Us"
+>
+  <Mail className="w-4 h-4" />
+</a>
             </div>
           </div>
 
@@ -103,7 +110,7 @@ export default function Footer() {
               <li><Link to="/services/smm" className="hover:text-blue-400 transition">SMM Intelligence</Link></li>
               <li><Link to="/services/ppc" className="hover:text-blue-400 transition">Precision PPC Campaigns</Link></li>
               <li><Link to="/services/orm" className="hover:text-blue-400 transition">ORM & Reputation Protect</Link></li>
-              <li><Link to="/services/content-marketing" className="hover:text-blue-400 transition">AI Content Marketing</Link></li>
+              <li><Link to="/services/content-marketing" className="hover:text-blue-400 transition">Content Marketing</Link></li>
               <li><Link to="/services/lead-generation" className="hover:text-blue-400 transition">Smart Lead Generation</Link></li>
             </ul>
           </div>
@@ -139,3 +146,4 @@ export default function Footer() {
     </footer>
   );
 }
+

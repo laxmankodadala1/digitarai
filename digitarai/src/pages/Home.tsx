@@ -53,9 +53,9 @@ export default function Home() {
   return (
     <div className="font-sans relative">
       <SeoHead
-        title="Advanced AI-Powered Digital Marketing Services company | DigitarAI"
+        title="Advanced Digital Marketing Services company | DigitarAI"
         description="Transform your enterprise traffic, qualified B2B leads, and digital marketing ROI using DigitarAI. DigitarAI is AI-Powered Digital Marketing Services company"
-        keywords="DigitarAI, AI marketing, digital marketing services, SEO, SMM, PPC, search engine optimization, AI SEO, geo, aeo, increase traffic, generate leads, grow traffic, digital marketing company, best and top digital marketing company in the world, social media services, google ads, search engine ranking, orm"
+        keywords="DigitarAI, AI marketing, digital marketing services, SEO, SMM, PPC, search engine optimization, AI SEO, geo, aeo, increase traffic, generate leads, grow traffic, digital marketing company, best and top digital marketing company in the world, social media services, google ads, search engine ranking, digital marketing agency, orm"
         breadcrumbs={[{ name: "Home", url: "/" }]}
       />
 
@@ -70,10 +70,10 @@ export default function Home() {
               {/* Left text */}
               <div className="lg:col-span-6 space-y-6">
                 <div className="inline-flex items-center gap-1.5 bg-blue-50 border border-blue-100 text-blue-700 px-3.5 py-1.5 rounded-full text-xs font-bold leading-none select-none">
-                  <Sparkles className="w-3.5 h-3.5 fill-blue-200" /> Advanced AI digital marketing
+                  <Sparkles className="w-3.5 h-3.5 fill-blue-200" /> Advanced Digital Marketing
                 </div>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold text-slate-900 tracking-tight leading-[1.05]">
-                  Advanced AI Digital Marketing Solutions <br />
+                  Advanced Digital Marketing Services <br />
                   <span className="gradient-text">That Drive Real Growth</span>
                 </h1>
                 <p className="text-base sm:text-lg text-slate-600 max-w-xl leading-relaxed">
@@ -167,7 +167,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-base font-bold text-slate-950 mb-2 font-display">Full-Service Integration</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  From technical Search Engine Optimization up to reputation monitoring, localized map listings, and strategic inbound funnels—we drive direct integrations seamlessly.
+                  From technical Search Engine Optimization up to reputation monitoring, localized map listings, and strategic inbound funnels we drive direct integrations seamlessly.
                 </p>
               </div>
             </div>
@@ -282,7 +282,7 @@ export default function Home() {
               <div className="border border-slate-200/50 bg-white rounded-3xl p-6 hover:border-slate-350 transition-all flex flex-col justify-between group">
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-blue-600 font-mono font-bold block mb-3">Continuous Audits</span>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">SEO / Advanced AI SEO</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 font-display">Advanced SEO / AI SEO</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-6">
                     Maintain peak ranks and sitemap indexability. Includes technical core performance metrics checks, schema markups, and competitor gap displacement.
                   </p>
