@@ -17,37 +17,29 @@ export default function Footer() {
 
   return (
     <footer className="bg-slate-950 text-slate-300 border-t border-slate-900 pt-16 pb-12 font-sans relative overflow-hidden">
-      {/* Decorative dark grid line */}
-      <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px] pointer-events-none" />
+  {/* Decorative dark grid line */}
+  <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 border-b border-slate-900 pb-12">
-          {/* Brand Col */}
-          <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2 group mb-5">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition">
-                <svg
-                  viewBox="0 0 100 100"
-                  className="w-5 h-5 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="10"
-                  strokeLinecap="square"
-                  strokeLinejoin="miter"
-                >
-                  {/* Arrowhead */}
-                  <path d="M 22 18 L 82 18 L 82 78" />
-                  <path d="M 22 18 Q 62 42 82 78" />
-                  {/* Shaft */}
-                  <path d="M 46 54 L 18 82" />
-                  <path d="M 32 68 L 60 40" />
-                  <path d="M 18 82 L 32 68" />
-                </svg>
-              </div>
-              <span className="font-display text-xl font-bold tracking-tight text-white">
-                Digitar<span className="text-blue-500">AI</span>
-              </span>
-            </Link>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 border-b border-slate-900 pb-12">
+      {/* Brand Col */}
+      <div className="lg:col-span-2">
+        <Link to="/" className="flex items-center gap-2 group mb-5">
+          {/* New Icon Image instead of SVG */}
+          <div className="w-10 h-10 rounded-xl overflow-hidden shadow-md shadow-blue-500/20 group-hover:scale-105 transition duration-300">
+            <img 
+              src="https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/DigitarAI%20png%20logo.png" 
+              alt="DigitarAI Icon" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+          
+          {/* Kept your exact text element here */}
+          <span className="font-display text-xl font-bold tracking-tight text-white">
+            Digitar<span className="text-blue-500">AI</span>
+          </span>
+        </Link>
+            
             <p className="text-sm text-slate-400 mb-6 leading-relaxed max-w-sm">
               DigitarAI is a top-tier, enterprise-grade Digital Marketing solutions developer. We transform enterprise growth through deep optimization algorithms and automated ad campaigns.
             </p>
