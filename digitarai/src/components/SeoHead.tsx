@@ -27,32 +27,31 @@ export default function SeoHead({
     // 2. Set or Update Meta Description
     updateMeta("name", "description", description);
 
-    // 3. Set or Update Meta Keywords (only if keywords are provided)
+    // 3. Set or Update Meta Keywords
     if (keywords) {
       updateMeta("name", "keywords", keywords);
     } else {
-      // Optional: Remove keywords tag if navigating to a page without them
-      const existingKeywords = document.querySelector(`meta[name="keywords"]`);
+      const existingKeywords = document.querySelector('meta[name="keywords"]');
       if (existingKeywords) {
         existingKeywords.remove();
       }
     }
 
-    // 3. Open Graph Tags
+    // 4. Open Graph Tags
     updateMeta("property", "og:title", `${title} | DigitarAI`);
     updateMeta("property", "og:description", description);
     updateMeta("property", "og:type", ogType);
     updateMeta("property", "og:url", canonicalUrl);
-    updateMeta("property", "og:image", "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=80"); // fallback premium visual
+    updateMeta("property", "og:image", "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=80");
     updateMeta("property", "og:site_name", "DigitarAI");
 
-    // 4. Twitter Card Tags
+    // 5. Twitter Card Tags
     updateMeta("name", "twitter:card", "summary_large_image");
     updateMeta("name", "twitter:title", title);
     updateMeta("name", "twitter:description", description);
     updateMeta("name", "twitter:image", "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=80");
 
-    // 5. Canonical Link
+    // 6. Canonical Link
     let canonical = document.querySelector("link[rel='canonical']");
     if (!canonical) {
       canonical = document.createElement("link");
@@ -61,16 +60,14 @@ export default function SeoHead({
     }
     canonical.setAttribute("href", canonicalUrl);
 
-    // 6. JSON-LD Structured schema injection (Breadcrumb and FAQ List)
-    const jsonLdScripts: HTMLScriptElement[] = [];
-
-    // Base Corporate Organization Schema
+    // 7. JSON-LD Structured schema injection
+    // Fixed: Standardized domain to match your live production .com setup
     const orgSchema = {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "DigitarAI",
-      "url": "https://digitarai.ai",
-      "logo": "https://digitarai.ai/logo.png",
+      "url": "https://digitarai.com",
+      "logo": "https://digitarai.com/logo.png",
       "tagline": "Advanced AI Marketing That Grows Your Business Faster.",
       "sameAs": [
         "https://linkedin.com/company/digitarai",
@@ -89,7 +86,7 @@ export default function SeoHead({
           "@type": "ListItem",
           "position": index + 1,
           "name": b.name,
-          "item": b.url,
+          "item": b.url.startsWith("http") ? b.url : `https://digitarai.com${b.url}`,
         })),
       };
       injectSchema(breadcrumbListSchema, "breadcrumb-schema");
@@ -117,15 +114,16 @@ export default function SeoHead({
     }
 
     return () => {
-      // Cleanup dynamics on unmount (standard clean practice for client routing)
+      // Clean up dynamics on route unmount
       removeSchema("breadcrumb-schema");
       removeSchema("faq-schema");
     };
-  }, [title, description, canonicalUrl, ogType, faqSchema, breadcrumbs]);
+    // Added keywords explicitly to target dynamic updates accurately
+  }, [title, description, keywords, canonicalUrl, ogType, faqSchema, breadcrumbs]);
 
-  // Helper inside effect
+  // Helper inside effect - updated query format safely using attribute quotes
   function updateMeta(attrName: string, attrVal: string, content: string) {
-    let meta = document.querySelector(`meta[${attrName}='${attrVal}']`);
+    let meta = document.querySelector(`meta[${attrName}="${attrVal}"]`);
     if (!meta) {
       meta = document.createElement("meta");
       meta.setAttribute(attrName, attrVal);
@@ -150,5 +148,5 @@ export default function SeoHead({
     }
   }
 
-  return null; // Side effect strictly inside document head
+  return null;
 }
