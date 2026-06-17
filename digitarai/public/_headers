@@ -1,0 +1,8 @@
+https://digitarai.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+http://digitarai.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+https://*.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, noarchive, nosnippet
