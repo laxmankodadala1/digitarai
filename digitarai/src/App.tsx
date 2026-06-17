@@ -22,6 +22,10 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  // Add the redirect check right here before the application mounts
+  if (window.location.hostname === 'digitarai.pages.dev') {
+    window.location.replace('https://digitarai.com' + window.location.pathname + window.location.search);
+  }
   return (
     <BrowserRouter>
       <ScrollToTop />
