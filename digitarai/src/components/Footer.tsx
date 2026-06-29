@@ -87,8 +87,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link to="/" className="hover:text-blue-400 transition">Home</Link></li>
               <li><Link to="/how-we-help" className="hover:text-blue-400 transition">Our Process</Link></li>
-              {/* FIXED: Changed route path from /about-us to /about to prevent Ahrefs 404 errors */}
-              <li><Link to="/about" className="hover:text-blue-400 transition">About Us</Link></li>
+              {/* FIXED: Restored slug path back to /about-us to prevent routing redirects */}
+              <li><Link to="/about-us" className="hover:text-blue-400 transition">About Us</Link></li>
               <li><Link to="/blogs" className="hover:text-blue-400 transition">Insights & Blogs</Link></li>
               <li><Link to="/contact" className="hover:text-blue-400 transition">Contact Audit Desk</Link></li>
             </ul>
@@ -115,7 +115,6 @@ export default function Footer() {
             <p className="text-xs text-slate-400 mb-4 leading-relaxed">
               Have questions about scaling your traffic? Get in touch with our digital marketing experts today.
             </p>
-            {/* FIXED: Used React Router Link instead of a hardcoded external domain fallback link structure internally */}
             <Link
               to="/contact"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-4 py-2.5 rounded-xl transition shadow-lg shadow-blue-600/10"
