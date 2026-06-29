@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Sparkles, Menu, X, ArrowRight, ChevronDown } from "lucide-react";
 
@@ -36,34 +36,31 @@ export default function Navbar() {
   };
 
   return (
-
     <header
-  className={`sticky top-0 z-50 transition-all duration-300 ${
-    scrolled
-      ? "bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm py-3"
-      : "bg-transparent py-5"
-  }`}
->
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="flex items-center justify-between">
-      {/* Brand Logo */}
-      <Link to="/" className="flex items-center gap-2 group">
-        {/* New Icon Image */}
-        <div className="w-10 h-10 rounded-xl overflow-hidden shadow-md shadow-blue-500/20 group-hover:scale-105 transition duration-300">
-          <img 
-            src="https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/DigitarAI%20png%20logo.png" 
-            alt="DigitarAI Icon" 
-            className="w-full h-full object-cover"
-          />
-        </div>
-        
-        {/* Original Text Typography */}
-        <div>
-          <span className="font-display text-xl font-bold tracking-tight text-slate-900">
-            Digitar<span className="text-blue-600">AI</span>
-          </span>
-        </div>
-      </Link>
+      className={`sticky top-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm py-3"
+          : "bg-transparent py-5"
+      }`}
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between">
+          
+          {/* Brand Logo */}
+          <Link to="/" className="flex items-center gap-2 group">
+            <div className="w-10 h-10 rounded-xl overflow-hidden shadow-md shadow-blue-500/20 group-hover:scale-105 transition duration-300">
+              <img 
+                src="https://raw.githubusercontent.com/laxmankodadala1/digitarai/refs/heads/dev/digitarai/src/assets/DigitarAI%20png%20logo.png" 
+                alt="DigitarAI Logo" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <span className="font-display text-xl font-bold tracking-tight text-slate-900">
+                Digitar<span className="text-blue-600">AI</span>
+              </span>
+            </div>
+          </Link>
 
           {/* Nav Links Desktop */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
@@ -100,8 +97,11 @@ export default function Navbar() {
             </div>
 
             <Link to="/solutions" className={activeClass("/solutions")}>Solutions</Link>
-            <Link to="/how-we-help" className={activeClass("/how-we-help")}>Our Process</Link>
+            <Link Behind to="/how-we-help" className={activeClass("/how-we-help")}>Our Process</Link>
+            
+            {/* FIXED: Restored tracking destination path safely to /about-us */}
             <Link to="/about-us" className={activeClass("/about-us")}>About Us</Link>
+            
             <Link to="/blogs" className={activeClass("/blogs")}>Blogs</Link>
             <Link to="/contact" className={activeClass("/contact")}>Contact</Link>
           </nav>
@@ -144,11 +144,15 @@ export default function Navbar() {
           </div>
           <Link to="/solutions" className={`py-2 text-base ${activeClass("/solutions")}`}>Solutions Overview</Link>
           <Link to="/how-we-help" className={`py-2 text-base ${activeClass("/how-we-help")}`}>How We Help (Audit & Scaling)</Link>
+          
+          {/* FIXED: Restored mobile route destination map cleanly to /about-us */}
           <Link to="/about-us" className={`py-2 text-base ${activeClass("/about-us")}`}>About Us</Link>
+          
           <Link to="/blogs" className={`py-2 text-base ${activeClass("/blogs")}`}>Blogs & AI Marketing Trends</Link>
-          <button className="bg-slate-50 p-0 text-left">
-            <Link to="/contact" className={`py-2 text-base block ${activeClass("/contact")}`}>Contact & Map</Link>
-          </button>
+          
+          <Link to="/contact" className={`py-2 text-base block ${activeClass("/contact")}`}>
+            Contact & Map
+          </Link>
           
           <Link
             to="/contact"
