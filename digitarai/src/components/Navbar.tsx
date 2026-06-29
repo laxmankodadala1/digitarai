@@ -97,9 +97,11 @@ export default function Navbar() {
             </div>
 
             <Link to="/solutions" className={activeClass("/solutions")}>Solutions</Link>
-            <Link to="/how-we-help" className={activeClass("/how-we-help")}>Our Process</Link>
-            {/* FIXED: Swapped /about-us path for /about alignment */}
-            <Link to="/about" className={activeClass("/about")}>About Us</Link>
+            <Link Behind to="/how-we-help" className={activeClass("/how-we-help")}>Our Process</Link>
+            
+            {/* FIXED: Restored tracking destination path safely to /about-us */}
+            <Link to="/about-us" className={activeClass("/about-us")}>About Us</Link>
+            
             <Link to="/blogs" className={activeClass("/blogs")}>Blogs</Link>
             <Link to="/contact" className={activeClass("/contact")}>Contact</Link>
           </nav>
@@ -142,11 +144,12 @@ export default function Navbar() {
           </div>
           <Link to="/solutions" className={`py-2 text-base ${activeClass("/solutions")}`}>Solutions Overview</Link>
           <Link to="/how-we-help" className={`py-2 text-base ${activeClass("/how-we-help")}`}>How We Help (Audit & Scaling)</Link>
-          {/* FIXED: Realigned route destination from /about-us to /about */}
-          <Link to="/about" className={`py-2 text-base ${activeClass("/about")}`}>About Us</Link>
+          
+          {/* FIXED: Restored mobile route destination map cleanly to /about-us */}
+          <Link to="/about-us" className={`py-2 text-base ${activeClass("/about-us")}`}>About Us</Link>
+          
           <Link to="/blogs" className={`py-2 text-base ${activeClass("/blogs")}`}>Blogs & AI Marketing Trends</Link>
           
-          {/* FIXED: Removed the invalid wrapper button container to let the raw Link render directly for crawlers */}
           <Link to="/contact" className={`py-2 text-base block ${activeClass("/contact")}`}>
             Contact & Map
           </Link>
